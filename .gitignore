@@ -1,2 +1,19 @@
-*.ipynb_checkpoints/
+# Virtual environment
+venv/
+.env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data sequences
 data/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# YOLO / model weights
+*.pt
+yolo_results/
+
